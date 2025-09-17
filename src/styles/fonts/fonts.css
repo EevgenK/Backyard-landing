@@ -1,18 +1,52 @@
-/*CHANGE TO YOUR FONTS*/
+/* src/styles/fonts.css */
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('./Roboto-Regular.ttf');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('./Roboto-Medium.ttf');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url('./Roboto-Bold.ttf');
+  font-family: 'Archivo';
+  src: url('./Archivo-Bold.woff2') format('woff2');
   font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archivo';
+  src: url('./Archivo-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archivo';
+  src: url('./Archivo-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archivo';
+  src: url('./Archivo-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Konnect';
+  src: url('./KonnectMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Konnect';
+  src: url('./KonnectRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
 }

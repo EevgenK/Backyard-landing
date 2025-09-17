@@ -1,12 +1,25 @@
 :root {
+  --font-family: 'Archivo', sans-serif;
+  --second-family: 'Konnect', sans-serif;
+  --third-family: 'Roboto', sans-serif;
+
+  --text-grey: #787878;
+  --title-color: #303030;
+  --btn-bg_dark: #2d2d2d;
+  --btn-bg_dark_hover: #3b3b3b;
+  --btn-bg_light: #e6e8ec;
+  --btn-bg_light_hover: #f8fbff;
   --main-bg_color: #fff;
-  --bg-color: yellow;
-  --bg-color_hover: orange;
+  --btn-text_dark: #f7f7f7;
+  --btn-text_dark_hover: #d1d1d2;
+  --btn-text_light: #2e2e2e;
+  --btn-text_light_hover: rgba(46, 46, 46, 0.75);
   --text-color: #121417;
-  --text-grey: #8a8a89;
+  --nav-bg: #f3f4f6;
+
   --green-color: #38cd3e;
 
   --error-color: rgb(250, 59, 59);
   --shadow: rgba(197, 233, 233, 0.3);
-  --transition: 250ms ease-in-out;
+  --transition: all 500ms ease-in-out;
 }

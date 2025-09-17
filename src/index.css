@@ -1,6 +1,7 @@
-@import 'modern-normalize';
+/* @import 'modern-normalize';
 @import './styles/vars.css';
-@import './styles/fonts/fonts.css';
+@import './styles/fonts/fonts.css'; 
+
 
 html {
   box-sizing: border-box;
@@ -12,8 +13,8 @@ body {
   margin: 0 auto;
   background-color: var(--main-bg_color);
   color: var(--text-color);
-  /*CHANGE TO YOUR FONTS*/
-  font-family: 'Roboto', sans-serif;
+  
+  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
@@ -77,4 +78,28 @@ img {
   white-space: nowrap;
   border: 0;
   pointer-events: none;
+}*/
+@import './styles/fonts/fonts.css';
+@import './styles/vars.css';
+@import 'tailwindcss';
+@theme {
+  --breakpoint-sm: 360px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1920px;
+}
+html {
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--main-bg_color);
+  color: var(--text-color);
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }

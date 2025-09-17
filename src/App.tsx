@@ -1,11 +1,14 @@
-import CustomButton from './components/shared/CustomButton/CustomButton';
+import Hero from './components/Hero';
+import HowItWorks from './components/HowItWorks';
 
 const App = () => {
   return (
-    <>
-      <h1>Hello World!</h1>
-      <CustomButton>Hover this custom button</CustomButton>
-    </>
+    <main className="scroll-smooth">
+      {/* <Container> */}
+      <Hero />
+      <HowItWorks />
+      {/* </Container> */}
+    </main>
   );
 };
 
