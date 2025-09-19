@@ -95,11 +95,31 @@ html {
 body {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: var(--main-bg_color);
+
   color: var(--text-color);
 
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
+}
+
+@layer components {
+  .anim-container {
+    @apply relative w-45 h-45 md:w-106 md:h-61 lg:w-45 lg:h-45 flex items-end justify-center bg-none;
+  }
+  .anim-basic_img {
+    @apply absolute bottom-0 w-full;
+  }
+}
+@layer base {
+  body {
+    @apply bg-[var(--main-bg_color)]; /* мобілки — без фону */
+  }
+
+  @media (min-width: 768px) {
+    body {
+      @apply bg-[url('/img/bg-main.png')] bg-no-repeat bg-cover bg-center;
+    }
+  }
 }

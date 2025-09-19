@@ -10,7 +10,7 @@ const SecondTitle = ({ children, additionalClass }: SecondTitleProps) => {
   return (
     <h2
       className={clsx(
-        'font-bold text-[28px] md:text-[42px] lg:text-[48px] mb-[39px] md:mb-6 lg:mb-0',
+        'font-bold text-[28px] md:text-[42px] lg:text-[48px]  md:mb-6 lg:mb-0',
         additionalClass,
       )}
     >
