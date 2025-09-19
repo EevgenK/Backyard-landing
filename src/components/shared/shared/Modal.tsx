@@ -1,7 +1,6 @@
 import { useEffect, useRef, useCallback } from 'react';
 import { useModal } from '../../../utils/hooks/useModal';
 import BurgerBtn from '../../BurgerBtn';
-import Container from './Container';
 
 const Modal = ({ children }: { children: React.ReactNode }) => {
   const { isOpen, closeModal } = useModal();
