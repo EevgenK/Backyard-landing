@@ -3,6 +3,7 @@ import Header from './Header';
 import Modal from './shared/shared/Modal';
 import { useModal } from '../utils/hooks/useModal';
 import ModalBody from './ModalBody';
+import Footer from './Footer';
 
 const Layout = () => {
   const { isOpen } = useModal();
@@ -12,6 +13,7 @@ const Layout = () => {
       <main>
         <App />
       </main>
+      <Footer />
       {isOpen && (
         <Modal>
           <ModalBody />
