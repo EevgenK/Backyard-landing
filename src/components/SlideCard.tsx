@@ -32,7 +32,7 @@ export default function SlideCard({
             {title}
           </h3>
         </div>
-        <div className="p-8 md:pr-25 lg:p-8 lg:h-43 bg-white rounded-[31px]">
+        <div className="p-8 md:pr-25 lg:p-8 h-46 lg:h-43 bg-white rounded-[31px]">
           <h4 className="font-extrabold text-lg mb-3">{subtitle}</h4>
           <p className="text-justify font-[var(--third-family)] text-[var(--text-grey)] text-sm">
             {text}
