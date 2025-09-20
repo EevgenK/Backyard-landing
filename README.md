@@ -22,7 +22,7 @@ Backyard Landing — це односторінковий лендінг, ств�
 
 ```bash
 # Клонування репозиторію
-git clone https://github.com/your-username/backyard-landing.git
+git clone https://github.com/EevgenK/Backyard-landing
 cd backyard-landing
 
 # Встановлення залежностей
